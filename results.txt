@@ -1,0 +1,54 @@
+Using Parameter N=10
+
+Pattern 1 Example Output:
+process 1 beginning
+process 4 beginning
+process 5 beginning
+process 6 beginning
+process 3 beginning
+process 7 beginning
+process 2 beginning
+process 10 beginning
+process 9 beginning
+process 8 beginning
+process 3 exiting
+process 1 exiting
+process 9 exiting
+process 4 exiting
+process 8 exiting
+process 5 exiting
+process 6 exiting
+process 7 exiting
+process 2 exiting
+process 10 exiting
+
+Pattern 2 Example Output:
+process 1 beginning
+process 1 creating process 2
+process 1 exiting
+process 2 beginning
+process 2 creating process 3
+process 2 exiting
+process 3 beginning
+process 3 creating process 4
+process 3 exiting
+process 4 beginning
+process 4 creating process 5
+process 4 exiting
+process 5 beginning
+process 5 creating process 6
+process 5 exiting
+process 6 beginning
+process 6 creating process 7
+process 6 exiting
+process 7 beginning
+process 7 creating process 8
+process 7 exiting
+process 8 beginning
+process 8 creating process 9
+process 8 exiting
+process 9 beginning
+process 9 creating process 10
+process 9 exiting
+process 10 beginning
+process 10 exiting
